@@ -1,1 +1,23 @@
+name: "Daten einsenden / Submit data"
+description: "RealmoraTrace-Export einsenden (/rtrace export) · Submit a RealmoraTrace export"
+title: "Einsendung / Submission"
+labels: ["einsendung"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Danke fürs Teilen!** Im Spiel `/rtrace export` eingeben, „Alles markieren“, Strg+C, und hier einfügen.
+        **Thanks for sharing!** In game type `/rtrace export`, click "Select all", press Ctrl+C and paste it here.
+
+        Der Text beginnt mit `!RMT1!` und endet mit `!`. Er enthält nur Welt-Wissen (NPC-Orte, Beute, Belohnungen, Händler- und Lehrerangebote), keinen Namen und kein Konto.
+        The text starts with `!RMT1!` and ends with `!`. It only contains world knowledge (NPC locations, loot, rewards, vendor and trainer offers), no name and no account.
+  - type: textarea
+    id: export
+    attributes:
+      label: "Export-Text / Export text"
+      description: "Den kompletten Text einfügen / Paste the complete text"
+      placeholder: "!RMT1!…!"
+      render: text
+    validations:
+      required: true
 
