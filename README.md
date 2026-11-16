@@ -18,3 +18,4 @@ Submissions are checked, merged and shipped back to everyone with the next Realm
 Only world knowledge is included (NPC locations, quest givers, loot, rewards, vendor and trainer offers), no name, no realm, no account.
 
 Discord: https://discord.gg/nTRHYFX2eZ
+Tally: https://tally.so/r/Z9OjQe
